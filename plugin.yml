@@ -1,0 +1,15 @@
+name: VIPMenu
+main: HakanBabus\Main
+author: HakanBabus
+api: [3.0.0]
+version: 0.0.1
+
+commands:
+  vipmenu:
+    description: "VIPMenu"
+    permission: vip.menu
+
+permissions:
+  vip.menu:
+   description: "VIP Menüyü Açmanı Sağlar"
+   default: OP
